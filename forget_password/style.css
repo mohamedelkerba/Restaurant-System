@@ -1,0 +1,106 @@
+/* style.css */
+
+/* Set the background color of the entire page to white */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff; /* White background */
+}
+
+/* Style for the container that holds the content */
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff; /* White background for the form container */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+/* Header styling for the logo */
+header .logo {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Main heading styling */
+main h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Signup text below the heading */
+.signup-text {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Style for the signup text link */
+.signup-text a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Forgot Password Link Styling */
+.forgot-password {
+    text-align: right;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.forgot-password a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styling for labels */
+form label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Styling for input fields */
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Button styling */
+form button {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+form button:hover {
+    background: #444;
+}
