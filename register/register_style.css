@@ -6,10 +6,9 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff; 
 }
 
-/* container that holds the content */
 .container {
     width: 100%;
     max-width: 400px;
@@ -19,7 +18,6 @@ body {
     border: 1px solid #ddd;
 }
 
-/* Header logo */
 header .logo {
     text-align: left;
     font-size: 24px;
